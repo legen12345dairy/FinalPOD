@@ -15,7 +15,7 @@ This CocoaPods library helps you to test pods.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/legen12345dairy/FinalPOD.git", :tag => "#{spec.version}" }
-  spec.source_files  = "FinalPod**/*.{h,m,swift}"
+  spec.source        = { :git => "https://github.com/legen12345dairy/FinalPOD.git", :tag => "#{spec.version}", commit: "54da9ee92026c2c052d910d3e05b56782b3b7ae9" }
+  spec.source_files  = 'FinalPOD/**/*.{h,m,swift}'
 
 end
